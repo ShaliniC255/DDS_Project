@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Zoo Management Application
+</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="emp_parking.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Employee Parking System</a>
+    <a href="fee_entrance.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Fee Entrance System</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Employee Maintenance System</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Animal Vaccination System</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Food Distribution System</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="emp_parking.html" class="w3-bar-item w3-button w3-padding-large">Employee Parking System</a>
+    <a href="fee_entrance.html" class="w3-bar-item w3-button w3-padding-large">Fee Entrance System</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Employee Maintenance System</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Animal Vaccination System</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Food Distribution System</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-red w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">ZOO MANAGEMENT APPLICATION</h1>
+  <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">Login</button>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Employee Parking System</h1>
+      <h5 class="w3-padding-32">The employees of the zoo are pre-allocated parking spaces based on availability and type of vehicle. These slots can change on a daily basis, and the employee can decide whether they will bring in their vehicle on a particular day and book a spot accordingly. We can have one separate database for this</h5>
+    </div>
+
+    
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+   
+
+    <div class="w3-twothird">
+      <h1>Fee entrance system</h1>
+      <h5 class="w3-padding-32">This is accessible to the employee at the front desk of the zoo, who manages ticket sales based on the number of adult and children guests. The entry fees to the zoo can be modified according to the season, the day of the week, and the ages. The name of the lead of a pack can be obtained to be filled in a second database.</h5>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    
+
+    <div class="w3-twothird">
+      <h1>Employee maintenance system</h1>
+      <h5 class="w3-padding-32">All the employees of the zoo can be maintained, which can include their shifts, their off days, the animals they take care of, and their salary. This can be filled in a third database.</h5>
+    </div>
+
+    
+  </div>
+</div>
+
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    
+
+    <div class="w3-twothird">
+      <h1>Animal vaccination system</h1>
+      <h5 class="w3-padding-32">All the vaccination details pertaining to the animals of the zoo can be fed into the microservice so that the zookeepers can be alerted about their next vaccination schedule. This can be compiled in a fourth database, along with a relation to the employee database</h5>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    
+
+    <div class="w3-twothird">
+      <h1>Animal food distribution system</h1>
+      <h5 class="w3-padding-32">Based on the general animals’ eating habits, a feeding schedule can be maintained on the system. Later on, if specific animals have a special diet, their feeding schedule can be personalized accordingly. This can be in the same database as the animal vaccination system.</h5>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Anil Kumar Reddy N S - 201CS109</h1>
+    <h1 class="w3-margin w3-xlarge">Suntosh Ram Ihyer - 201CS161</h1>
+    <h1 class="w3-margin w3-xlarge">Chirag R - 201CS170</h1>
+    <h1 class="w3-margin w3-xlarge">Pooja Gayathri Kanala - 201CS239</h1>
+    <h1 class="w3-margin w3-xlarge">Shalini C - 201CS255</h1>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity">  
+  <div class="w3-xlarge w3-padding-32">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+ </div>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
